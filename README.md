@@ -8,5 +8,6 @@ Aplikacja klient-serwer służąca do kolejkowania i wysyłania notyfikacji. Ser
 
 Serwer:
 ![image](https://user-images.githubusercontent.com/84285452/118475643-c8b92700-b70c-11eb-854c-e8b78cc7a1ac.png)
+
 Klient:
 ![image](https://user-images.githubusercontent.com/84285452/118475601-bf2fbf00-b70c-11eb-934f-d99cbe3fcd5b.png)
