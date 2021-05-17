@@ -1,10 +1,10 @@
 # Echo #Client #Server #java
 
 ENG
-Simple console application that queues and notifies. Server receives a text message and time at which client wants to get message back. Server is able to handle multiple clients and multiple texts. Messages are queued by DelayQueue and the text message is stored in Item class that implements Delayed.
+Simple console application that queues and notifies. Server receives a text message and time at which client wants to get message back. Server is able to handle multiple clients and multiple texts. Messages are queued by DelayQueue and the text message is stored in Item class that implements Delayed. A client can only ask about future time otherwise the app will throw an own exception.
 
 PL
-Aplikacja klient-serwer służąca do kolejkowania i wysyłania notyfikacji. Serwer pobiera wiadomość tekstową od klienta oraz czas, o której ma odesłać wiadomość. Serwer może obsłużyć wiele klientów oraz wiele wiadomości w jednym czasie. Wiadomości są kolejkowane przy użyciu DelayQueue, a wiadomość przechowywana w klasie Item, która implementuje Delayed. 
+Aplikacja klient-serwer służąca do kolejkowania i wysyłania notyfikacji. Serwer pobiera wiadomość tekstową od klienta oraz czas, o której ma odesłać wiadomość. Serwer może obsłużyć wiele klientów oraz wiele wiadomości w jednym czasie. Wiadomości są kolejkowane przy użyciu DelayQueue, a wiadomość przechowywana w klasie Item, która implementuje Delayed. Klient może poprosić tylko o czas przyszły, w przeciwnym wypadku aplikacja wyrzuci swoj własny wyjątek.
 
 Serwer:
 ![image](https://user-images.githubusercontent.com/84285452/118475643-c8b92700-b70c-11eb-854c-e8b78cc7a1ac.png)
